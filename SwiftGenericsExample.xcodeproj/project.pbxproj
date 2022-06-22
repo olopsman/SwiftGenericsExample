@@ -11,6 +11,7 @@
 		BE959F4128631F57003AF067 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE959F4028631F57003AF067 /* ContentView.swift */; };
 		BE959F4328631F58003AF067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE959F4228631F58003AF067 /* Assets.xcassets */; };
 		BE959F4628631F58003AF067 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE959F4528631F58003AF067 /* Preview Assets.xcassets */; };
+		BE959F4D28631F69003AF067 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE959F4C28631F69003AF067 /* APICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		BE959F4028631F57003AF067 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE959F4228631F58003AF067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE959F4528631F58003AF067 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE959F4C28631F69003AF067 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		BE959F50286327C1003AF067 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		BE959F3228631F57003AF067 = {
 			isa = PBXGroup;
 			children = (
+				BE959F50286327C1003AF067 /* Readme.md */,
 				BE959F3D28631F57003AF067 /* SwiftGenericsExample */,
 				BE959F3C28631F57003AF067 /* Products */,
 			);
@@ -53,6 +57,7 @@
 			children = (
 				BE959F3E28631F57003AF067 /* SwiftGenericsExampleApp.swift */,
 				BE959F4028631F57003AF067 /* ContentView.swift */,
+				BE959F4C28631F69003AF067 /* APICaller.swift */,
 				BE959F4228631F58003AF067 /* Assets.xcassets */,
 				BE959F4428631F58003AF067 /* Preview Content */,
 			);
@@ -138,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE959F4128631F57003AF067 /* ContentView.swift in Sources */,
+				BE959F4D28631F69003AF067 /* APICaller.swift in Sources */,
 				BE959F3F28631F57003AF067 /* SwiftGenericsExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
